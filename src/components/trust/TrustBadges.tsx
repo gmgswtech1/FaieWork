@@ -202,7 +202,7 @@ export const TrustBadge: React.FC<TrustBadgeProps> = ({
             <div className="rounded-2xl border border-amber-200 bg-amber-50 p-3.5 text-xs text-amber-900 flex items-start gap-2.5">
               <AlertTriangle size={18} className="text-amber-600 shrink-0 mt-0.5" />
               <div className="leading-snug">
-                <span className="font-bold text-amber-950 block">Frontend Prototype Demonstration</span>
+                <span className="font-bold text-amber-950 block">FRONTEND DEMONSTRATION ONLY — Prototype Simulation</span>
                 This verification flow simulates future integration with the Ethiopian National ID Program (Fayda eKYC). No live government servers are queried, and no real citizen biometrics are handled.
               </div>
             </div>

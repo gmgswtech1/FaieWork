@@ -69,7 +69,8 @@ console.log('✓ FaydaVerificationModal 4-step simulator and outcome controls ve
 
 // 7. Inspect JudgeGuidedTour
 const tourContent = fs.readFileSync(path.join(__dirname, 'src/components/demo/JudgeGuidedTour.tsx'), 'utf-8');
-assert(tourContent.includes('Step 1 of 11'), 'Must include 11-step tour');
+assert(tourContent.includes('11 Steps'), 'Must include 11-step tour');
+assert(tourContent.includes('of 11'), 'Must display step counter of 11');
 assert(tourContent.includes('Auto-Navigate'), 'Must provide auto-navigate action');
 console.log('✓ JudgeGuidedTour 11-step dock verified.');
 
