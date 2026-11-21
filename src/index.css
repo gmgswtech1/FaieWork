@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #102b58;
+  background: #fbfcfd;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+button, a, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+.hero-visual { box-shadow: 0 25px 70px rgba(24, 94, 104, 0.14); }
+
+@media (max-width: 640px) {
+  .hero-visual { height: 350px; border-radius: 44% 44% 0 0; }
+}
